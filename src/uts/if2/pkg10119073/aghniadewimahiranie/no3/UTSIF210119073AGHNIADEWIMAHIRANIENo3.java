@@ -13,33 +13,35 @@ public class UTSIF210119073AGHNIADEWIMAHIRANIENo3 {
     public static void main(String[] args) {
         Rnb rnb1 = new Rnb();
         Rnb rnb2 = new Rnb();
-        Folk folk = new Folk();
-        Rockability rockability = new Rockability();
-        HardRock hr1 = new HardRock();
-        HardRock hr2 = new HardRock();
-        HardRock hr3 = new HardRock();
-        Metal metal1 = new Metal();
-        Metal metal2 = new Metal();
-        Grindcore grind1 = new Grindcore();
-        DeathMetal death1 = new DeathMetal();
-        DeathCoreKepiting dck1 = new DeathCoreKepiting();
-        BlackMetal bm1 = new BlackMetal();
-        NewSkul ns1 = new NewSkul();
-        
         rnb1.genreBlues("Jimmy Hendrik");
         rnb2.genreJazz("Chad Baker");
+        
+        Folk folk = new Folk();
         folk.genreFolk("Bob Dylan");
+        Rockability rockability = new Rockability();
         rockability.genreRockability("Elvis Presley");
+        
+        HardRock hr1 = new HardRock();
         hr1.genreProgressiveRock("DreamTheater");
-        hr2.genrePsycehedellic("The Doors");;
+        HardRock hr2 = new HardRock();
+        hr2.genrePsycehedellic("The Doors");
+        HardRock hr3 = new HardRock();
         hr3.genrePopRock("Kiss");
+        
+        Metal metal1 = new Metal();
         metal1.genrePunk("MXPX");
+        Metal metal2 = new Metal();
         metal2.genreHeavyMetal("METALLICA");
-        grind1.genreGrindcore("Mesin Tempur");
-        death1.genreDeathMetal("JASAD");
-        dck1.genreDeathCoreKepiting("Revenge The Fate");
-        bm1.genreBlackMetal("Behemoth");
-        ns1.genreNewSkul("HATEBREED");
+        Grindcore grind = new Grindcore();
+        grind.genreGrindcore("Mesin Tempur");
+        DeathMetal death = new DeathMetal();
+        death.genreDeathMetal("JASAD");
+        DeathCoreKepiting dck = new DeathCoreKepiting();
+        dck.genreDeathCoreKepiting("Revenge The Fate");
+        BlackMetal bm = new BlackMetal();
+        bm.genreBlackMetal("Behemoth");
+        NewSkul ns = new NewSkul();
+        ns.genreNewSkul("HATEBREED");
         
     }
     
