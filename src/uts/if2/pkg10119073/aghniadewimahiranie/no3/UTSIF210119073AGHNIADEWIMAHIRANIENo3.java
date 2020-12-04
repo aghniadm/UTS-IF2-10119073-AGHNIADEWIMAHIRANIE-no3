@@ -12,8 +12,8 @@ public class UTSIF210119073AGHNIADEWIMAHIRANIENo3 {
 
     public static void main(String[] args) {
         Rnb rnb1 = new Rnb();
-        Rnb rnb2 = new Rnb();
         rnb1.genreBlues("Jimmy Hendrik");
+        Rnb rnb2 = new Rnb();
         rnb2.genreJazz("Chad Baker");
         
         Folk folk = new Folk();
